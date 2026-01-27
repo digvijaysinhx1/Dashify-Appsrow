@@ -1,11 +1,16 @@
 @import "tailwindcss";
 
+html{
+    overflow-x: hidden;
+}
+
 html, body {
   height: 100%;
   font-family: 'DM Sans','Instrument Sans';
   background-color: #FFFFFF;
   color: #000000;
   scroll-behavior: smooth;
+  overflow-x: clip; 
 }
 
 .slider{
