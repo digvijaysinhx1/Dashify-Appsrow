@@ -87,7 +87,7 @@ const Sec6 = () => {
             <div className="name w-full font-medium text-xl"><span>Pro</span></div>
             <div className="amt flex relative items-center h-fit w-full gap-2">
                 <h4 className="font-medium text-[39px]">$49</h4>
-                <span className="font-normal absolute -top-8 right-0 text-xl bg-[#FFFFFF] text-[#5A50D8] px-4 py-2 rounded-xl">popular</span>
+                <span className="font-normal absolute -top-8 right-0 text-xl bg-[#FFFFFF] text-[#5A50D8] px-4 py-2 rounded-xl">Popular</span>
                 <span className="font-normal text-xl">/mo</span>
             </div>
           </div>

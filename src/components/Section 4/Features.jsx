@@ -19,7 +19,7 @@ const Features = (props) => {
             </span>
 
             <h3
-              className="font-medium text-3xl sm:text-4xl md:text-5xl"
+              className="font-medium text-3xl text-center sm:text-4xl md:text-5xl"
               style={{ fontFamily: "Instrument Sans" }}
             >
               {props.h3}

@@ -2,7 +2,6 @@ import React from 'react'
 import Features from './Features'
 import circles from "../../assets/analytics.png";
 import Tags from '../Analytics Card/Tags';
-import Employee from '../Employee/Employee';
 import Users from '../../assets/users.png'
 import Graph from "../../assets/Graph.png"
 import {MoveUpRight} from 'lucide-react'
@@ -10,7 +9,6 @@ import u1 from "../../assets/img1.png"
 import u2 from "../../assets/img2.png"
 import u3 from "../../assets/img3.png"
 import u4 from "../../assets/img4.png"
-import TeamList from '../Team List/TeamList';
 import img1 from '../../assets/img1.png'
 import img2 from '../../assets/img2.png'
 import img3 from '../../assets/img3.png'
@@ -23,7 +21,7 @@ const Sec4 = (elem) => {
     const card1 = (
         <>
         
-        <div className=" bg-white/60 absolute bottom-7 -left-3 backdrop-blur-sm h-68 w-68 lg:h-80 lg:w-81.5 flex xl:right-30 items-center justify-center rounded-[26px]">
+        <div className=" bg-white/60 absolute bottom-7 -left-3 md:-left-13 backdrop-blur-sm h-68 w-68 lg:h-80 lg:w-81.5 flex xl:right-30 items-center justify-center rounded-[26px]">
             <div className="flex flex-col justify-center items-center border-[#EFF3FE] bg-[#ffffff] gap-3 h-60.5 w-60.5 lg:h-76.5 lg:w-75 rounded-2xl">
                 <span className="self-start font-semibold text-[#020202] text-[14px] lg:text-lg ml-5">
                     Analytics Reports
@@ -37,7 +35,7 @@ const Sec4 = (elem) => {
               
             </div>
           </div>
-          <div className="bg-white/60 relative top-20 left-8 md:left-20  backdrop-blur-sm h-47 w-82 flex items-center justify-center rounded-[26px]">
+          <div className="bg-white/60 relative top-20 md:top-6 left-8 md:left-20  backdrop-blur-sm h-47 w-82 flex items-center justify-center rounded-[26px]">
             <div className="tags flex flex-col gap-3 z-50 absolute h-40 w-75 bg-white px-6 py-3 rounded-2xl">
               <Tags
                 borderColor="border-[#5A50D8]"

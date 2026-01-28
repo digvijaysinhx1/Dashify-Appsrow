@@ -5,6 +5,7 @@ import Sec3 from './components/Section 3/Sec3'
 import Sec4 from './components/Section 4/Sec4'
 import Sec5 from './components/Section 5/Sec5'
 import Sec6 from './components/Section 6/Sec6'
+import Sec7 from './components/Section 7/Sec7'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Sec4/>
     <Sec5/>
     <Sec6/>
+    <Sec7/>
     </>
   )
 }
