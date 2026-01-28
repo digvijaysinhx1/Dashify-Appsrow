@@ -11,9 +11,9 @@ const Header = () => {
     <nav className="bg-white border border-gray-50 rounded-2xl mt-7 h-20 w-[90%] lg:w-[80%] px-4 md:px-6">
       
       <div className="flex items-center justify-between h-20">
-        <img src={Logo} alt="logo" className="h-7 w-auto lg:h-9" />
+        <img src={Logo} alt="logo" loading="lazy" className="h-7 w-auto lg:h-9" />
 
-        <ul className="hidden lg:flex gap-6 md:text-xs lg:text-md xl:text-xl text-[#4F4F4F] font-semibold ">
+        <ul className="hidden lg:flex gap-6 md:text-sm lg:text-md xl:text-xl text-[#4F4F4F] font-semibold ">
           <li><a href="#">Features</a></li>
           <li><a href="#">Pricing</a></li>
           <li><a href="#">Blogs</a></li>

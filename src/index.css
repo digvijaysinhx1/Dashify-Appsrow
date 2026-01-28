@@ -1,35 +1,39 @@
 @import "tailwindcss";
 
-html{
-    overflow-x: hidden;
+html {
+  overflow-x: hidden;
 }
 
-html, body {
+html,
+body {
   height: 100%;
-  font-family: 'DM Sans','Instrument Sans';
+  font-family: 'DM Sans', 'Instrument Sans';
   background-color: #FFFFFF;
   color: #000000;
   scroll-behavior: smooth;
-  overflow-x: clip; 
+  overflow-x: clip;
 }
 
-.slider{
+.slider {
   animation: forwards;
 }
 
-.boxShadow:hover{
+.boxShadow:hover {
   box-shadow: 0 0 20px rgb(90, 80, 216, 0.5);
 }
+.boxShadow2:hover {
+  box-shadow: 0 0 30px rgba(50, 45, 120, 0.5)
+}
 
-.parent{
+.parent {
   display: hidden;
 }
 
 @media (min-width: 1024px) {
   .parent {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 }
 
@@ -41,19 +45,80 @@ html, body {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-20%);
   }
 }
 
 .gradient-border {
-border: 2px solid transparent;
-border-radius: 20px;
+  border: 2px solid transparent;
+  border-radius: 20px;
 
 
-background:
-linear-gradient(#FAFBFF, #ECF1FE) padding-box,
+  background:
+    linear-gradient(#FAFBFF, #ECF1FE) padding-box,
 
 
-linear-gradient(135deg, #EFF3FE, #E2E8FD) border-box;
+    linear-gradient(135deg, #EFF3FE, #E2E8FD) border-box;
+}
+
+.feat {
+  border-radius: 20px;
+  background: linear-gradient(180deg,
+      #ACB7F5 0%,
+      #CBD4FA 50%,
+      #ACB7F5 100%);
+}
+
+/* Container that clips overflow */
+.marquee-row {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Track that moves */
+.marquee-review {
+  display: flex;
+  width: max-content;
+  gap: 24px;
+  will-change: transform;
+}
+
+/* Left to right */
+.marquee-left {
+  animation: marquee-left 40s linear infinite;
+}
+
+/* Right to left */
+.marquee-right {
+  animation: marquee-right 45s linear infinite;
+}
+
+/* Keyframes */
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.pro {
+  border-radius: 20px;
+  background: linear-gradient(180deg,
+      #5A50D8 0%,
+      #6E6FE6 50%,
+      #5A50D8 100%);
 }

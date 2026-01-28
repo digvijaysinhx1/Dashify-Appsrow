@@ -22,7 +22,7 @@ const Employee = () => {
             </div>
         </div>
         <div className="graph">
-            <img src={Graph} alt="graph image" className='rotate-10 w-28 h-23.5' />
+            <img src={Graph} alt="graph image" loading='lazy' className='rotate-10 w-28 h-23.5' />
         </div>
       </div>
     </div>

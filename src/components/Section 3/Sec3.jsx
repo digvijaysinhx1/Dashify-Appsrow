@@ -6,8 +6,8 @@ import icon3 from "../../assets/Icon3.png";
 
 const Sec3 = (elem) => {
   return (
-    <div className="relative bg-[#FAFBFF] w-full flex flex-col items-center h-screen">
-      <div className="infos relative flex flex-col items-center md:w-186.5 w-80 justify-center text-center h-fit gap-4 top-20">
+    <div className="relative bg-[#FAFBFF] w-screen flex flex-col items-center h-[200vh] lg:h-screen">
+      <div className="infos absolute flex flex-col items-center md:w-186.5 w-80 justify-center text-center h-fit gap-4 top-20">
         <h3
           className="lg:text-5xl text-2xl font-medium text-center text-gray-950 "
           style={{ fontFamily: "Instrument Sans" }}
