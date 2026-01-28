@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 html{
-    overflow-x: clip;
+    overflow-x: hidden;
 }
 
 html, body {
@@ -44,4 +44,16 @@ html, body {
   to {
     transform: translateX(-20%);
   }
+}
+
+.gradient-border {
+border: 2px solid transparent;
+border-radius: 20px;
+
+
+background:
+linear-gradient(#FAFBFF, #ECF1FE) padding-box,
+
+
+linear-gradient(135deg, #EFF3FE, #E2E8FD) border-box;
 }

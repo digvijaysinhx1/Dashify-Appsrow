@@ -9,7 +9,7 @@ const HeroCenter = () => {
   return (
     <div className="main flex flex-col w-87 mt-20 md:w-142 gap-23 justify-center z-50 items-center">
       <div className="infos flex flex-col justify-center items-center gap-12.5">
-        <div>
+        <div className="flex flex-col gap-4">
         <HeroHeading/>
         <HeroPara/>
         </div>

@@ -15,63 +15,63 @@ const Companies = (props) => {
         <div className={`${props.marquee} flex w-max`}>
           {/* First set */}
           <div className="flex items-center gap-12">
-            <img src={logo1} className="h-10 md:h-25" />
-            <img src={logo2} className="h-10 md:h-25" />
-            <img src={logo3} className="h-10 md:h-25" />
-            <img src={logo4} className="h-10 md:h-25" />
-            <img src={logo5} className="h-10 md:h-25" />
-            <img src={logo6} className="h-10 md:h-25" />
-            <img src={logo7} className="h-10 md:h-25" />
-            <img src={logo8} className="h-10 md:h-25" />
+            <img src={logo1} className="h-15 md:h-25" />
+            <img src={logo2} className="h-15 md:h-25" />
+            <img src={logo3} className="h-15 md:h-25" />
+            <img src={logo4} className="h-15 md:h-25" />
+            <img src={logo5} className="h-15 md:h-25" />
+            <img src={logo6} className="h-15 md:h-25" />
+            <img src={logo7} className="h-15 md:h-25" />
+            <img src={logo8} className="h-15 md:h-25" />
           </div>
 
           {/* Duplicate set (IMPORTANT for seamless loop) */}
           <div className="flex items-center gap-12 ml-12">
-            <img src={logo1} className="h-10 md:h-25" />
-            <img src={logo2} className="h-10 md:h-25" />
-            <img src={logo3} className="h-10 md:h-25" />
-            <img src={logo4} className="h-10 md:h-25" />
-            <img src={logo5} className="h-10 md:h-25" />
-            <img src={logo6} className="h-10 md:h-25" />
-            <img src={logo7} className="h-10 md:h-25" />
-            <img src={logo8} className="h-10 md:h-25" />
+            <img src={logo1} className="h-15 md:h-25" />
+            <img src={logo2} className="h-15 md:h-25" />
+            <img src={logo3} className="h-15 md:h-25" />
+            <img src={logo4} className="h-15 md:h-25" />
+            <img src={logo5} className="h-15 md:h-25" />
+            <img src={logo6} className="h-15 md:h-25" />
+            <img src={logo7} className="h-15 md:h-25" />
+            <img src={logo8} className="h-15 md:h-25" />
           </div>
           <div className="flex items-center gap-12 ml-12">
-            <img src={logo1} className="h-10 md:h-25" />
-            <img src={logo2} className="h-10 md:h-25" />
-            <img src={logo3} className="h-10 md:h-25" />
-            <img src={logo4} className="h-10 md:h-25" />
-            <img src={logo5} className="h-10 md:h-25" />
-            <img src={logo6} className="h-10 md:h-25" />
-            <img src={logo7} className="h-10 md:h-25" />
-            <img src={logo8} className="h-10 md:h-25" />
+            <img src={logo1} className="h-15 md:h-25" />
+            <img src={logo2} className="h-15 md:h-25" />
+            <img src={logo3} className="h-15 md:h-25" />
+            <img src={logo4} className="h-15 md:h-25" />
+            <img src={logo5} className="h-15 md:h-25" />
+            <img src={logo6} className="h-15 md:h-25" />
+            <img src={logo7} className="h-15 md:h-25" />
+            <img src={logo8} className="h-15 md:h-25" />
           </div>
         </div>
       </div>
 
-      <div class="parent hidden lg:grid gap-5">
-        <div class="div1">
+      <div className="parent hidden lg:grid gap-5">
+        <div className="div1">
             <img src={logo1} className="h-25" />
         </div>
-        <div class="div2">
+        <div className="div2">
             <img src={logo2} className="h-25" />
         </div>
-        <div class="div3">
+        <div className="div3">
             <img src={logo3} className="h-25" />
         </div>
-        <div class="div4">
+        <div className="div4">
             <img src={logo4} className="h-25" />
         </div>
-        <div class="div5">
+        <div className="div5">
             <img src={logo5} className="h-25" />
         </div>
-        <div class="div6">
+        <div className="div6">
             <img src={logo6} className="h-25" />
         </div>
-        <div class="div7">
+        <div className="div7">
             <img src={logo7} className="h-25" />
         </div>
-        <div class="div8">
+        <div className="div8">
             <img src={logo8} className="h-25" />
         </div>
       </div>
