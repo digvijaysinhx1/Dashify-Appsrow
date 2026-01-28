@@ -4,7 +4,7 @@ import circles from "../../assets/analytics.png";
 
 const AnalyticCard = (elem) => {
   return (
-    <div className="hidden bg-white/20 backdrop-blur-sm h-119 w-80 absolute md:flex top-50 right-40 items-center justify-center rounded-[26px] -rotate-6" >
+    <div className="hidden bg-white/20 backdrop-blur-sm h-119 w-80 absolute lg:flex top-50 -right-10 xl:right-30 items-center justify-center rounded-[26px] rotate-6" >
       <div className="flex flex-col justify-center items-center border-[#EFF3FE] bg-[#ffffff] gap-3 h-114 w-75 rounded-2xl">
         <span className="self-start font-semibold text-[#020202] text-lg ml-5">
           Analytics Reports

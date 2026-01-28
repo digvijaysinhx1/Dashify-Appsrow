@@ -12,19 +12,19 @@ const MultiImages = () => {
       <div className="flex items-center">
         <img
           src={u1}
-          className="w-8 h-8 rounded-full border border-white z-0"
+          className="w-8 h-8 rounded-full border border-white z-0 -rotate-8"
         />
         <img
           src={u2}
-          className="w-8 h-8 rounded-full border border-white -ml-2 z-1"
+          className="w-8 h-8 rounded-full border border-white -ml-2 z-1 -rotate-8"
         />
         <img
           src={u3}
-          className="w-8 h-8 rounded-full border border-white -ml-2 z-2"
+          className="w-8 h-8 rounded-full border border-white -ml-2 z-2 -rotate-8"
         />
         <img
           src={u4}
-          className="w-8 h-8 rounded-full border border-white -ml-2 z-3"
+          className="w-8 h-8 rounded-full border border-white -ml-2 z-3 -rotate-8"
         />
 
         {/* + badge */}

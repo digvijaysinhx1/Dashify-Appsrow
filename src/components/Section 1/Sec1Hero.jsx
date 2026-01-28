@@ -6,8 +6,9 @@ import TeamList from '../Team List/TeamList'
 import Employee from '../Employee/Employee'
 import HeroCenter from '../Hero Center Text/HeroCenter'
 const Sec1Hero = () => {
+  
   return (
-    <section className='flex flex-col justify-start items-center h-screen w-auto bg-no-repeat bg-cover bg-center' style={{backgroundImage:`url(${Bg})`}}>
+    <section className=' overflow-hidden flex flex-col justify-start items-center h-fit w-full bg-no-repeat bg-cover bg-center' style={{backgroundImage:`url(${Bg})`}}>
       <Header/>
       <div>
       <HeroCenter/>

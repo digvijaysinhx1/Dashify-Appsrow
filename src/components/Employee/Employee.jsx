@@ -5,7 +5,7 @@ import {MoveUpRight} from 'lucide-react'
 
 const Employee = () => {
   return (
-    <div className= "hidden bg-white/20 backdrop-blur-sm h-50 w-80 absolute top-120 left-50 md:flex items-center justify-center rounded-[26px] -rotate-10" >
+    <div className= "hidden bg-white/20 backdrop-blur-sm h-50 w-80 absolute top-120 left-10 xl:left-50 lg:flex items-center justify-center rounded-[26px] rotate-10" >
       <div className="flex justify-around items-center border border-[#EFF3FE] bg-[#ffffff] gap-3 h-45 w-75 rounded-2xl">
         <div className="infos flex flex-col justify-center items-center">
             <div className="top flex justify-left items-center gap-2 font-semibold text-[16px] text-gray-950">
