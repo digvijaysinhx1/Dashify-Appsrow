@@ -8,7 +8,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white border border-gray-50 rounded-2xl mt-7 h-20 w-[90%] lg:w-[80%] px-4 md:px-6">
+    <nav className="bg-white border border-gray-50 rounded-2xl z-100 mt-7 h-20 w-[90%] lg:w-[80%] px-4 md:px-6">
       
       <div className="flex items-center justify-between h-20">
         <img src={Logo} alt="logo" loading="lazy" className="h-7 w-auto lg:h-9" />
@@ -31,7 +31,7 @@ const Header = () => {
           className=" lg:hidden"
           name="menu-button"
         >
-          {open ? <X className="text-[#4F4F4F]" name="cross" /> : <Menu name="Menu" className="text-[#4F4F4F]" />}
+          {open ? <X className="text-[#4F4F4F]" name="Menu" /> : <Menu name="Menu" className="text-[#4F4F4F]" />}
         </button>
       </div>
 

@@ -8,7 +8,14 @@ import HeroCenter from '../Hero Center Text/HeroCenter'
 const Sec1Hero = () => {
   
   return (
-    <div className=' flex flex-col h-fit justify-start items-center w-full md:h-screen bg-no-repeat bg-cover bg-center' style={{backgroundImage:`url(${Bg})`}}>
+    <div className=' flex flex-col relative h-fit justify-start items-center w-full md:h-screen bg-no-repeat bg-cover bg-center' >
+      <img
+src={Bg}
+alt=""
+className="absolute inset-0 w-full h-full object-cover"
+loading="eager"
+decoding="async"
+/>
       <Header/>
       <div>
       <HeroCenter/>
