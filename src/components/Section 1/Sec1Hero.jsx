@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Header/Header'
-import Bg from '../../assets/AllBg.png'
+import Bg from '../../assets/AllBg.webp'
 import AnalyticCard from '../Analytics Card/AnalyticCard'
 import TeamList from '../Team List/TeamList'
 import Employee from '../Employee/Employee'

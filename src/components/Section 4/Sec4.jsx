@@ -23,9 +23,9 @@ const Sec4 = (elem) => {
         
         <div className=" bg-white/60 absolute bottom-7 -left-3 md:-left-13 backdrop-blur-sm h-68 w-68 lg:h-80 lg:w-81.5 flex xl:right-30 items-center justify-center rounded-[26px]">
             <div className="flex flex-col justify-center items-center border-[#EFF3FE] bg-[#ffffff] gap-3 h-60.5 w-60.5 lg:h-76.5 lg:w-75 rounded-2xl">
-                <p className="self-start font-semibold text-[#020202] text-[14px] lg:text-lg ml-5">
+                <span className="self-start font-semibold text-[#020202] text-[14px] lg:text-lg ml-5">
                     Analytics Reports
-                  </p>
+                  </span>
                   <img
                     src={circles}
                     alt="analytics image"
@@ -39,23 +39,23 @@ const Sec4 = (elem) => {
             <div className="tags flex flex-col gap-3 z-50 absolute h-40 w-75 bg-white px-6 py-3 rounded-2xl">
               <Tags
                 borderColor="border-[#5A50D8]"
-                p1="Financial Report"
-                p2="90%"
+                span1="Financial Report"
+                span2="90%"
               />
               <Tags
                 borderColor="border-[#FFCC42]"
-                p1="Business proposal"
-                p2="70%"
+                span1="Business proposal"
+                span2="70%"
               />
               <Tags
                 borderColor="border-[#1AC7E5]"
-                p1="Update leadership"
-                p2="50%"
+                span1="Update leadership"
+                span2="50%"
               />
               <Tags
                 borderColor="border-[#E5381A]"
-                p1="Onboarding plan"
-                p2="28%"
+                span1="Onboarding plan"
+                span2="28%"
               />
             </div>
           </div>
@@ -97,7 +97,7 @@ const Sec4 = (elem) => {
               
         
               <h6 className="text-sm text-gray-600 gap-1.5 font-medium flex items-center" >
-                <p className="text-[39px] text-gray-950 font-semibold">+18%</p> <p>Growth</p>
+                <span className="text-[39px] text-gray-950 font-semibold">+18%</span> <span>Growth</span>
               </h6>
             </div>
             </div>
@@ -108,14 +108,14 @@ const Sec4 = (elem) => {
         <div className="infos flex flex-col justify-center items-center">
             <div className="top flex justify-left items-center gap-2 font-semibold text-[16px] text-gray-950">
                 <img src={Users} alt="users icon" loading='lazy' className='rotate-10' />
-                <p>Employees</p>
+                <span>Employees</span>
             </div>
             <div className="bottom flex flex-col justify-center items-left gap-2">
             <h4 className="text-[39px] font-semibold">340</h4>
             <div className='flex justify-center items-center gap-2'>
 
-                <p className='flex items-center justify-center gap-1 text-[#02C519] text-xs font-normal'><MoveUpRight className='h-4'/> 07.50%</p>
-                <p className='text-gray-300 text-xs font-medium'>Last 6 Days</p>
+                <span className='flex items-center justify-center gap-1 text-[#02C519] text-xs font-normal'><MoveUpRight className='h-4'/> 07.50%</span>
+                <span className='text-gray-300 text-xs font-medium'>Last 6 Days</span>
             </div>
             </div>
         </div>
@@ -132,15 +132,15 @@ const Sec4 = (elem) => {
         <>
         <div className=" bg-white/20 backdrop-blur-sm h-80 absolute -top-40 -left-40  w-80  flex items-center justify-center rounded-[26px]" >
       <div className="flex flex-col justify-center items-center border border-[#EFF3FE] bg-[#ffffff] gap-3 h-74 w-75 rounded-2xl">
-       <p className="self-start font-semibold text-[#020202] text-lg ml-5">
+       <span className="self-start font-semibold text-[#020202] text-lg ml-5">
           Team List
-        </p>
+        </span>
         <div className="tags flex flex-col">
-        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" p1="Dianne Russell" p2="Marketing" bg="bg-[#EFF3FE]" img={img1}/>
-        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" p1="Bessie Cooper" p2="Design" bg="bg-[#FFF9EB]" img={img2}/>
-        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" p1="Floyd Miles" p2="Finance" bg="bg-[#EDFAFD]" img={img3}/>
-        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" p1="Esther Howard" p2="Development" bg="bg-[#FDEFED]" img={img4}/>
-        <Tags2  p1="Floyd Miles" p2="Finance" bg="bg-[#EDFAFD]" img={img3}/>
+        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" span1="Dianne Russell" span2="Marketing" bg="bg-[#EFF3FE]" img={img1}/>
+        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" span1="Bessie Cooper" span2="Design" bg="bg-[#FFF9EB]" img={img2}/>
+        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" span1="Floyd Miles" span2="Finance" bg="bg-[#EDFAFD]" img={img3}/>
+        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" span1="Esther Howard" span2="Development" bg="bg-[#FDEFED]" img={img4}/>
+        <Tags2  span1="Floyd Miles" span2="Finance" bg="bg-[#EDFAFD]" img={img3}/>
         </div>
       </div>
     </div>
@@ -157,9 +157,9 @@ const Sec4 = (elem) => {
         <p className='text-center text-gray-700 font-normal text-lg '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
       </div>
       <div className="features flex flex-col gap-10">
-        <Features flex="lg:flex-row" items="items-left"  p="Easy Admin" h3="Take the pain out of company admin" p="Eliminate the hassle, nobody wants it. Take the pain out of company admin with our all-in-one platform. Simplify projects and focus on what really drives your business forward." code={card1}/>
-        <Features flex="lg:flex-row-reverse" items="items-start" p="Ready for scale" h3="Grow with your Business" p="Now you can grow confidently, nothing holding you back. Our platform grows as you grow. Adapting to your needs. Scale from a pre-seed startup to public company with Dashify." code={card2}/>
-        <Features flex="lg:flex-row" items="items-left" p="Central Platform" h3="Manage your team in one place" p="Centralize your team management. Manage your entire team in one tool. Easy communication, project management, and smooth collaboration with your team." code={card3} />
+        <Features flex="lg:flex-row" items="items-left"  span="Easy Admin" h3="Take the pain out of company admin" p="Eliminate the hassle, nobody wants it. Take the pain out of company admin with our all-in-one platform. Simplify projects and focus on what really drives your business forward." code={card1}/>
+        <Features flex="lg:flex-row-reverse" items="items-start" span="Ready for scale" h3="Grow with your Business" p="Now you can grow confidently, nothing holding you back. Our platform grows as you grow. Adapting to your needs. Scale from a pre-seed startup to public company with Dashify." code={card2}/>
+        <Features flex="lg:flex-row" items="items-left" span="Central Platform" h3="Manage your team in one place" p="Centralize your team management. Manage your entire team in one tool. Easy communication, project management, and smooth collaboration with your team." code={card3} />
       </div>
     </div>
   )
