@@ -8,7 +8,7 @@ const Sec7 = () => {
   const [open4, setOpen4] = useState(false);
 
   return (
-    <div className="w-full px-15 flex flex-col mt-15 md:flex-row md:justify-between items-center md:items-baseline gap-10 h-182.25 bg-[#FCFCFC]">
+    <div className="w-full px-15 flex flex-col mt-15 lg:flex-row lg:justify-between items-center lg:items-baseline gap-10 h-fit mb-10 bg-[#FCFCFC]">
       <div className="texts flex flex-col w-90 gap-3">
         <h3
           className="text-gray-950 font-medium text-3xl md:text-5xl"
@@ -52,7 +52,7 @@ const Sec7 = () => {
             onClick={() => setOpen2((prev) => !prev)}
             className="heading flex justify-between items-center text-left"
           >
-            <h6 className="font-medium text-gray-950 text-xl md:text-[25px]">
+            <h6 className="font-medium text-gray-950 text-xl lg:text-[25px]">
               Is my data secure?
             </h6>
 

@@ -35,13 +35,13 @@ const Features = (props) => {
         >
           <img
             src={vector1}
-            alt=""
+            alt="vector"
             className="absolute top-0 right-0 w-28 sm:w-32"
             loading="lazy"
           />
           <img
             src={vector2}
-            alt=""
+            alt="vector"
             className="absolute bottom-0 left-0 w-28 sm:w-32"
             loading="lazy"
           />

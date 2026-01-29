@@ -75,10 +75,10 @@ const Sec6 = () => {
         </div>
 
         <div className="pro overflow-hidden flex flex-col items-center justify-around relative z-5 text-[#FFFFFF] bg-[#EFF3FE] w-85.25 h-134.75 rounded-2xl">
-          <img src={vector1} alt="" className="absolute top-0 right-0 w-27 -z-10" />
+          <img src={vector1} alt="vector" className="absolute top-0 right-0 w-27 -z-10" />
           <img
             src={vector2}
-            alt=""
+            alt="vector"
             className="absolute bottom-0 left-0 w-27 -z-10"
           />
           <div className="flex flex-col gap-5">

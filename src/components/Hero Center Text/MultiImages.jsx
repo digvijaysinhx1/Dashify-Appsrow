@@ -11,21 +11,25 @@ const MultiImages = () => {
       <div className="flex items-center">
         <img
           src={u1}
+          alt="user image"
           loading="lazy"
           className="w-8 h-8 rounded-full border border-white z-0 -rotate-8"
         />
         <img
           src={u2}
+          alt="user image"
           loading="lazy"
           className="w-8 h-8 rounded-full border border-white -ml-2 z-1 -rotate-8"
         />
         <img
           src={u3}
+          alt="user image"
           loading="lazy"
           className="w-8 h-8 rounded-full border border-white -ml-2 z-2 -rotate-8"
         />
         <img
           src={u4}
+          alt="user image"
           loading="lazy"
           className="w-8 h-8 rounded-full border border-white -ml-2 z-3 -rotate-8"
         />

@@ -10,7 +10,7 @@ const Reviews = (props) => {
           <div className="img">
             <img
               src={user}
-              alt=""
+              alt="user icon"
               loading="lazy"
               className="-rotate-8 h-15 w-20 lg:w-20 z-50"
             />

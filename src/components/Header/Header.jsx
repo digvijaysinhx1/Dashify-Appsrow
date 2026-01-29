@@ -28,7 +28,8 @@ const Header = () => {
 
         <button
           onClick={() => setOpen(!open)}
-          className="lg:hidden"
+          className=" lg:hidden"
+          name="menu-button"
         >
           {open ? <X className="text-[#4F4F4F]" /> : <Menu className="text-[#4F4F4F]" />}
         </button>

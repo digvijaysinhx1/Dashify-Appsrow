@@ -73,24 +73,24 @@ const Sec4 = (elem) => {
               <div className="flex items-center ">
                 <img
                   src={u1}
-                  className="w-8 h-8 rounded-full border border-white z-0 -rotate-8"
+                  className="w-8 h-8 rounded-full border border-white z-0 -rotate-8" alt="User image"
                   loading="lazy"
                 />
                 <img
                   src={u2}
-                  className="w-8 h-8 rounded-full border border-white -ml-2 z-1 -rotate-8"loading="lazy"
+                  className="w-8 h-8 rounded-full border border-white -ml-2 z-1 -rotate-8"loading="lazy" alt="User image"
                 />
                 <img
                   src={u3}
-                  className="w-12 h-12 rounded-full border border-white -ml-2 z-10 -rotate-8"loading="lazy"
+                  className="w-12 h-12 rounded-full border border-white -ml-2 z-10 -rotate-8"loading="lazy" alt="User image"
                 />
                 <img
                   src={u4}
-                  className="w-8 h-8 rounded-full border border-white -ml-2 z-3 -rotate-8"loading="lazy"
+                  className="w-8 h-8 rounded-full border border-white -ml-2 z-3 -rotate-8"loading="lazy" alt="User image"
                 />
                 <img
                   src={u1}
-                  className="w-8 h-8 rounded-full border border-white -ml-2 z-3 -rotate-8"loading="lazy"
+                  className="w-8 h-8 rounded-full border border-white -ml-2 z-3 -rotate-8"loading="lazy" alt="User image"
                 />
                 
               </div>
