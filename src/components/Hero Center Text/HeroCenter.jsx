@@ -13,7 +13,7 @@ const HeroCenter = () => {
         <HeroHeading/>
         <HeroPara/>
         </div>
-        <div className="cta flex flex-col md:flex-row gap-5 items-center justify-center">
+        <div className="cta flex flex-col md:flex-row gap-5 items-center justify-center cursor-pointer z-51">
           <GetBtn/>
           <Learn/>
         </div>
