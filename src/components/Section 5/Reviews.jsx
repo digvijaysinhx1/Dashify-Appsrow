@@ -16,19 +16,19 @@ const Reviews = (props) => {
             />
           </div>
           <div className="name flex flex-col gap-1.5 w-full">
-            <h6
+            <h1
               className="text-xl lg:text-[25px] font-medium text-gray-900"
               style={{ fontFamily: "Instrument Sans" }}
             >
-              {props.h6}
-            </h6>
-            <p className="text-[14.4px] font-normal text-gray-400">
+              {props.h1}
+            </h1>
+            <span className="text-[14.4px] font-normal text-gray-400">
               CEO & Founder
-            </p>
+            </span>
           </div>
         </div>
         <div className="down font-medium text-lg text-gray-700 w-90 lg:w-115.75">
-          <p>{props.p}</p>
+          <span>{props.p}</span>
         </div>
       </div>
       <div className="bottom flex gap-1 mt-2">

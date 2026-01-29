@@ -111,7 +111,7 @@ const Sec4 = (elem) => {
                 <span>Employees</span>
             </div>
             <div className="bottom flex flex-col justify-center items-left gap-2">
-            <h4 className="text-[39px] font-semibold">340</h4>
+            <h1 className="text-[39px] font-semibold">340</h1>
             <div className='flex justify-center items-center gap-2'>
 
                 <span className='flex items-center justify-center gap-1 text-[#02C519] text-xs font-normal'><MoveUpRight className='h-4'/> 07.50%</span>
@@ -153,7 +153,7 @@ const Sec4 = (elem) => {
 
     <div className='bg-[#FFFFFF] relative flex flex-col w-full items-center my-10 gap-20'>
       <div className="info flex flex-col items-center gap-4 px-4 md:w-184">
-        <h3 className='text-gray-950 font-semibold text-4xl md:text-5xl' style={{fontFamily:"Instrument Sans"}}>Powerful features</h3>
+        <h1 className='text-gray-950 font-semibold text-4xl md:text-5xl' style={{fontFamily:"Instrument Sans"}}>Powerful features</h1>
         <p className='text-center text-gray-700 font-normal text-lg '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
       </div>
       <div className="features flex flex-col gap-10">

@@ -11,12 +11,12 @@ const Sec5 = () => {
       {/* Row 1 — left to right */}
       <div className="marquee-row">
         <div className="marquee-review marquee-left">
-          <Reviews h6="Emily Chang" p="As a remote team, Dashify has been a game-changer for us. It’s communication features keep us connected and organized, no matter where we are."/>
-          <Reviews h6="Emily Chang" p="As a remote team, Dashify has been a game-changer for us. It’s communication features keep us connected and organized, no matter where we are."/>
-          <Reviews h6="Floyd Miles" p="As a remote team, Dashify has been a game-changer for us. It’s communication features keep us connected and organized, no matter where we are."/>
-          <Reviews h6="Samantha" p="Thanks to Dashify, we’ve seen a significant increase in productivity. It’s seamless integration with our existing tools has streamlined our processes and saved us valuable time."/>
-          <Reviews h6="Emily Chang" p="As a remote team, Dashify has been a game-changer for us. It’s communication features keep us connected and organized, no matter where we are."/>
-          <Reviews h6="Samantha" p="Thanks to Dashify, we’ve seen a significant increase in productivity. It’s seamless integration with our existing tools has streamlined our processes and saved us valuable time."/>
+          <Reviews h1="Emily Chang" span="As a remote team, Dashify has been a game-changer for us. It’s communication features keep us connected and organized, no matter where we are."/>
+          <Reviews h1="Emily Chang" span="As a remote team, Dashify has been a game-changer for us. It’s communication features keep us connected and organized, no matter where we are."/>
+          <Reviews h1="Floyd Miles" span="As a remote team, Dashify has been a game-changer for us. It’s communication features keep us connected and organized, no matter where we are."/>
+          <Reviews h1="Samantha" span="Thanks to Dashify, we’ve seen a significant increase in productivity. It’s seamless integration with our existing tools has streamlined our processes and saved us valuable time."/>
+          <Reviews h1="Emily Chang" span="As a remote team, Dashify has been a game-changer for us. It’s communication features keep us connected and organized, no matter where we are."/>
+          <Reviews h1="Samantha" span="Thanks to Dashify, we’ve seen a significant increase in productivity. It’s seamless integration with our existing tools has streamlined our processes and saved us valuable time."/>
         </div>
       </div>
 

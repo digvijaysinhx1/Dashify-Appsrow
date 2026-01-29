@@ -40,9 +40,9 @@ const MultiImages = () => {
       </div>
 
 
-      <h6 className="text-sm text-gray-600 gap-1.5 font-medium flex items-center" style={{fontFamily:"Instrument Sans"}}>
+      <h1 className="text-sm text-gray-600 gap-1.5 font-medium flex items-center" style={{fontFamily:"Instrument Sans"}}>
         <p><span className="text-lg text-gray-950">50K</span> world wide users</p>
-      </h6>
+      </h1>
     </div>
   );
 };
