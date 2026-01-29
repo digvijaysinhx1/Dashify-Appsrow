@@ -13,23 +13,23 @@ const AnalyticCard = (elem) => {
         <div className="tags flex flex-col gap-3">
           <Tags
             borderColor="border-[#5A50D8]"
-            p1="Financial Report"
-            p2="90%"
+            span1="Financial Report"
+            span2="90%"
           />
           <Tags
             borderColor="border-[#FFCC42]"
-            p1="Business proposal"
-            p2="70%"
+            span1="Business proposal"
+            span2="70%"
           />
           <Tags
             borderColor="border-[#1AC7E5]"
-            p1="Update leadership"
-            p2="50%"
+            span1="Update leadership"
+            span2="50%"
           />
           <Tags
             borderColor="border-[#E5381A]"
-            p1="Onboarding plan"
-            p2="28%"
+            span1="Onboarding plan"
+            span2="28%"
           />
         </div>
       </div>

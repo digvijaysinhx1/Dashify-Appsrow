@@ -28,7 +28,7 @@ const Reviews = (props) => {
           </div>
         </div>
         <div className="down font-medium text-lg text-gray-700 w-90 lg:w-115.75">
-          <span>{props.p}</span>
+          <span>{props.span}</span>
         </div>
       </div>
       <div className="bottom flex gap-1 mt-2">

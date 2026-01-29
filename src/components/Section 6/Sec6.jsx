@@ -28,7 +28,7 @@ const Sec6 = () => {
         <p className="text-gray-900 text-[18px] cursor-pointer">
           Monthly
         </p>
-        {/* toggle btn */}
+        {/* Need to add toggle btn */}
         <p className="text-[#5A50D8] text-[18px] cursor-pointer">
           Yearly
         </p>
