@@ -15,11 +15,11 @@ const Features = (props) => {
             className={`up flex flex-col items-center lg:items-start gap-3 `}
           >
             <p className="text-sm md:text-base font-medium w-fit text-[#5A50D8] bg-[#E2E8FD] rounded-2xl px-4 py-2">
-              {props.p}
+              {props.span}
             </p>
 
             <h3
-              className="font-medium text-3xl text-center sm:text-4xl md:text-5xl"
+              className="font-medium text-3xl text-left sm:text-4xl md:text-5xl"
               style={{ fontFamily: "Instrument Sans" }}
             >
               {props.h3}

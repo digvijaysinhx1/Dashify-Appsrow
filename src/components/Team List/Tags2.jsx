@@ -6,9 +6,9 @@ const Tags2 = (props) => {
     <div className={`flex justify-between items-center xl:w-65 lg:w-55 h-11.5 ${props.border} ${props.borderColor1}`}>
       <div className='flex items-center font-medium text-sm gap-3 text-[#3D3D3D]'>
         <img src={props.img} alt="fake human image" loading='lazy' className='-rotate-8' />
-        <p>{props.p1}</p>
+        <span>{props.span1}</span>
       </div>
-      <p className={`${props.bg} px-2 py-1 rounded-md text-xs font-normal text-gray-900`}>{props.p2}</p>
+      <span className={`${props.bg} px-2 py-1 rounded-md text-xs font-normal text-gray-900`}>{props.span2}</span>
     </div>
   )
 }
