@@ -13,10 +13,10 @@ const TeamList = (elem) => {
           Team List
         </p>
         <div className="tags flex flex-col">
-        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" p1="Dianne Russell" p2="Marketing" bg="bg-[#EFF3FE]" img={img1}/>
-        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" p1="Bessie Cooper" p2="Design" bg="bg-[#FFF9EB]" img={img2}/>
-        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" p1="Floyd Miles" p2="Finance" bg="bg-[#EDFAFD]" img={img3}/>
-        <Tags2 p1="Esther Howard" p2="Development" bg="bg-[#FDEFED]" img={img4}/>
+        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" span1="Dianne Russell" span2="Marketing" bg="bg-[#EFF3FE]" img={img1}/>
+        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" span1="Bessie Cooper" span2="Design" bg="bg-[#FFF9EB]" img={img2}/>
+        <Tags2 border="border-b" borderColor1="border-[#F6F6F6]" span1="Floyd Miles" span2="Finance" bg="bg-[#EDFAFD]" img={img3}/>
+        <Tags2 span1="Esther Howard" span2="Development" bg="bg-[#FDEFED]" img={img4}/>
         </div>
       </div>
     </div>
