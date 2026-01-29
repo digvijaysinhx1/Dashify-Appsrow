@@ -11,7 +11,7 @@ const Sec1Hero = () => {
     <div className=' flex flex-col relative h-fit justify-start items-center w-full md:h-screen bg-no-repeat bg-cover bg-center' >
       <img
 src={Bg}
-alt=""
+alt="bg vector"
 className="absolute inset-0 w-full h-full object-cover"
 loading="eager"
 decoding="async"
