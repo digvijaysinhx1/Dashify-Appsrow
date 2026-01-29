@@ -13,7 +13,7 @@ const Sec1Hero = () => {
 src={Bg}
 alt="bg vector"
 className="absolute inset-0 w-full h-full object-cover"
-loading="eager"
+loading="lazy"
 decoding="async"
 />
       <Header/>
