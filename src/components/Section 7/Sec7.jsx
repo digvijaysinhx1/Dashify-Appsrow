@@ -18,9 +18,9 @@ const Sec7 = () => {
         </h3>
         <p className="font-normal text-gray-700 text-[18px]">
           Have questions? We’ve got answers. For everything else email us on{" "}
-          <span className="text-[#5A50D8] font-bold underline">
+          <p className="text-[#5A50D8] font-bold underline">
             hi@gmail.com
-          </span>
+          </p>
         </p>
       </div>
       <div className="FAQ flex flex-col gap-2">

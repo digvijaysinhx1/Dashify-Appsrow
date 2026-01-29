@@ -31,7 +31,7 @@ const Header = () => {
           className=" lg:hidden"
           name="menu-button"
         >
-          {open ? <X className="text-[#4F4F4F]" /> : <Menu className="text-[#4F4F4F]" />}
+          {open ? <X className="text-[#4F4F4F]" name="cross" /> : <Menu name="Menu" className="text-[#4F4F4F]" />}
         </button>
       </div>
 

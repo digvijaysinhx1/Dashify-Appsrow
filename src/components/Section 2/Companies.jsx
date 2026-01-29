@@ -15,64 +15,64 @@ const Companies = (props) => {
         <div className={`${props.marquee} flex w-max`}>
           {/* First set */}
           <div className="flex items-center gap-12">
-            <img src={logo1} className="h-15 md:h-25" loading="lazy" alt="comapny logo" />
-            <img src={logo2} className="h-15 md:h-25" loading="lazy" alt="comapny logo" />
-            <img src={logo3} className="h-15 md:h-25" loading="lazy" alt="comapny logo" />
-            <img src={logo4} className="h-15 md:h-25" loading="lazy" alt="comapny logo" />
-            <img src={logo5} className="h-15 md:h-25" loading="lazy" alt="comapny logo" />
-            <img src={logo6} className="h-15 md:h-25" loading="lazy" alt="comapny logo" />
-            <img src={logo7} className="h-15 md:h-25" loading="lazy" alt="comapny logo" />
-            <img src={logo8} className="h-15 md:h-25" loading="lazy" alt="comapny logo" />
+            <img src={logo1} className="h-15 md:h-25 w-auto" loading="lazy" alt="comapny logo" />
+            <img src={logo2} className="h-15 md:h-25 w-auto" loading="lazy" alt="comapny logo" />
+            <img src={logo3} className="h-15 md:h-25 w-auto" loading="lazy" alt="comapny logo" />
+            <img src={logo4} className="h-15 md:h-25 w-auto" loading="lazy" alt="comapny logo" />
+            <img src={logo5} className="h-15 md:h-25 w-auto" loading="lazy" alt="comapny logo" />
+            <img src={logo6} className="h-15 md:h-25 w-auto" loading="lazy" alt="comapny logo" />
+            <img src={logo7} className="h-15 md:h-25 w-auto" loading="lazy" alt="comapny logo" />
+            <img src={logo8} className="h-15 md:h-25 w-auto" loading="lazy" alt="comapny logo" />
           </div>
 
           {/* Duplicate set (IMPORTANT for seamless loop) */}
           <div className="flex items-center gap-12 ml-12">
-            <img src={logo1} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo2} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo3} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo4} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo5} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo6} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo7} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo8} className="h-15 md:h-25" loading="lazy" alt="company logo" />
+            <img src={logo1} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo2} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo3} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo4} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo5} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo6} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo7} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo8} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
           </div>
           <div className="flex items-center gap-12 ml-12">
-            <img src={logo1} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo2} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo3} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo4} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo5} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo6} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo7} className="h-15 md:h-25" loading="lazy" alt="company logo" />
-            <img src={logo8} className="h-15 md:h-25" loading="lazy" alt="company logo" />
+            <img src={logo1} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo2} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo3} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo4} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo5} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo6} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo7} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
+            <img src={logo8} className="h-15 md:h-25 w-auto" loading="lazy" alt="company logo" />
           </div>
         </div>
       </div>
 
       <div className="parent hidden lg:grid gap-5">
         <div className="div1">
-            <img src={logo1} className="h-25" loading="lazy" alt="company logo" />
+            <img src={logo1} className="h-25 w-auto" loading="lazy" alt="company logo" />
         </div>
         <div className="div2">
-            <img src={logo2} className="h-25" loading="lazy" alt="company logo"/>
+            <img src={logo2} className="h-25 w-auto" loading="lazy" alt="company logo"/>
         </div>
         <div className="div3">
-            <img src={logo3} className="h-25" loading="lazy" alt="company logo"/>
+            <img src={logo3} className="h-25 w-auto" loading="lazy" alt="company logo"/>
         </div>
         <div className="div4">
-            <img src={logo4} className="h-25" loading="lazy" alt="company logo"/>
+            <img src={logo4} className="h-25 w-auto" loading="lazy" alt="company logo"/>
         </div>
         <div className="div5">
-            <img src={logo5} className="h-25" loading="lazy" alt="company logo"/>
+            <img src={logo5} className="h-25 w-auto" loading="lazy" alt="company logo"/>
         </div>
         <div className="div6">
-            <img src={logo6} className="h-25" loading="lazy" alt="company logo"/>
+            <img src={logo6} className="h-25 w-auto" loading="lazy" alt="company logo"/>
         </div>
         <div className="div7">
-            <img src={logo7} className="h-25" loading="lazy" alt="company logo"/>
+            <img src={logo7} className="h-25 w-auto" loading="lazy" alt="company logo"/>
         </div>
         <div className="div8">
-            <img src={logo8} className="h-25"loading="lazy"  alt="company logo"/>
+            <img src={logo8} className="h-25 w-auto"loading="lazy"  alt="company logo"/>
         </div>
       </div>
     </>

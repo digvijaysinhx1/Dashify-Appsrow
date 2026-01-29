@@ -25,16 +25,16 @@ const Sec6 = () => {
         className="tabs flex gap-4 text-base md:text-lg font-medium"
         style={{ fontFamily: "Instrument Sans" }}
       >
-        <span className="text-gray-900 text-[18px] cursor-pointer">
+        <p className="text-gray-900 text-[18px] cursor-pointer">
           Monthly
-        </span>
+        </p>
         {/* toggle btn */}
-        <span className="text-[#5A50D8] text-[18px] cursor-pointer">
+        <p className="text-[#5A50D8] text-[18px] cursor-pointer">
           Yearly
-        </span>
-        <span className="bg:[#F5FFF6] text-[#02C519] px-2 py-1 rounded-lg text-sm">
+        </p>
+        <p className="bg:[#F5FFF6] text-[#02C519] px-2 py-1 rounded-lg text-sm">
           -10%
-        </span>
+        </p>
       </div>
       <div className="plans flex lg:flex-row flex-col items-center gap-3">
         <div className="basic text-gray-950 overflow-hidden flex flex-col items-center justify-around relative z-5 bg-[#EFF3FE] w-85.25 h-134.75 rounded-2xl">
@@ -48,25 +48,25 @@ const Sec6 = () => {
           <div className="flex flex-col gap-5">
 
           <div className="planInfo w-65.25 h-27.25 gap-3 pb-6 border-b border-[#E2E8FD]">
-            <div className="name w-full font-medium text-xl"><span>Basic</span></div>
+            <div className="name w-full font-medium text-xl"><p>Basic</p></div>
             <div className="amt flex items-center h-fit w-full gap-2">
                 <h4 className="font-medium text-[39px]">$26</h4>
-                <span className="font-normal text-xl">/mo</span>
+                <p className="font-normal text-xl">/mo</p>
             </div>
           </div>
 
             <div className="checks w-65.25 h-27.25 flex flex-col gap-2">
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>2 seats</span>
+                    <p>2 seats</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>Simple support</span>
+                    <p>Simple support</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>Simple onboarding features</span>
+                    <p>Simple onboarding features</p>
                 </div>
             </div>
           </div>
@@ -84,34 +84,34 @@ const Sec6 = () => {
           <div className="flex flex-col gap-5">
 
           <div className="planInfo w-65.25 h-27.25 gap-3 pb-6 border-b border-[#6E6FE6]">
-            <div className="name w-full font-medium text-xl"><span>Pro</span></div>
+            <div className="name w-full font-medium text-xl"><p>Pro</p></div>
             <div className="amt flex relative items-center h-fit w-full gap-2">
                 <h4 className="font-medium text-[39px]">$49</h4>
-                <span className="font-normal absolute -top-8 right-0 text-xl bg-[#FFFFFF] text-[#5A50D8] px-4 py-2 rounded-xl">Popular</span>
-                <span className="font-normal text-xl">/mo</span>
+                <p className="font-normal absolute -top-8 right-0 text-xl bg-[#FFFFFF] text-[#5A50D8] px-4 py-2 rounded-xl">Popular</p>
+                <p className="font-normal text-xl">/mo</p>
             </div>
           </div>
 
             <div className="checks w-65.25 h-27.25 flex flex-col gap-2">
                 <div className=" flex items-center gap-3">
                     <img src={Tick2} alt="tick mark" loading="lazy" />
-                    <span>5 seats</span>
+                    <p>5 seats</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick2} alt="tick mark" loading="lazy" />
-                    <span>Expert support</span>
+                    <p>Expert support</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick2} alt="tick mark" loading="lazy" />
-                    <span>Monthly payroll</span>
+                    <p>Monthly payroll</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick2} alt="tick mark" loading="lazy" />
-                    <span>Third party integrations</span>
+                    <p>Third party integrations</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick2} alt="tick mark" loading="lazy" />
-                    <span>Advanced onboarding features</span>
+                    <p>Advanced onboarding features</p>
                 </div>
             </div>
           </div>
@@ -129,41 +129,41 @@ const Sec6 = () => {
           <div className="flex flex-col gap-5">
 
           <div className="planInfo w-65.25 h-27.25 gap-3 pb-6 border-b border-[#E2E8FD]">
-            <div className="name w-full font-medium text-xl"><span>Enterprise</span></div>
+            <div className="name w-full font-medium text-xl"><p>Enterprise</p></div>
             <div className="amt flex items-center h-fit w-full gap-2">
                 <h4 className="font-medium text-[39px]">$179</h4>
-                <span className="font-normal text-xl">/mo</span>
+                <p className="font-normal text-xl">/mo</p>
             </div>
           </div>
 
             <div className="checks w-65.25 h-27.25 flex flex-col gap-2">
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>Unlimited seats</span>
+                    <p>Unlimited seats</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>Priority 1-1 support</span>
+                    <p>Priority 1-1 support</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>Monthly payroll</span>
+                    <p>Monthly payroll</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>Third party integrations</span>
+                    <p>Third party integrations</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>Advanced onboarding features</span>
+                    <p>Advanced onboarding features</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>Dedicated HR expert</span>
+                    <p>Dedicated HR expert</p>
                 </div>
                 <div className=" flex items-center gap-3">
                     <img src={Tick} alt="tick mark" loading="lazy" />
-                    <span>Custom admin permission</span>
+                    <p>Custom admin permission</p>
                 </div>
             </div>
           </div>

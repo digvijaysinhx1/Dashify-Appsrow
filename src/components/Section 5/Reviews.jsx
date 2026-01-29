@@ -22,9 +22,9 @@ const Reviews = (props) => {
             >
               {props.h6}
             </h6>
-            <span className="text-[14.4px] font-normal text-gray-400">
+            <p className="text-[14.4px] font-normal text-gray-400">
               CEO & Founder
-            </span>
+            </p>
           </div>
         </div>
         <div className="down font-medium text-lg text-gray-700 w-90 lg:w-115.75">

@@ -8,7 +8,7 @@ import HeroCenter from '../Hero Center Text/HeroCenter'
 const Sec1Hero = () => {
   
   return (
-    <section className=' flex flex-col h-fit justify-start items-center w-full md:h-screen bg-no-repeat bg-cover bg-center' style={{backgroundImage:`url(${Bg})`}}>
+    <div className=' flex flex-col h-fit justify-start items-center w-full md:h-screen bg-no-repeat bg-cover bg-center' style={{backgroundImage:`url(${Bg})`}}>
       <Header/>
       <div>
       <HeroCenter/>
@@ -16,7 +16,7 @@ const Sec1Hero = () => {
       <AnalyticCard/>
       <TeamList/>
       <Employee/>
-    </section>
+    </div>
   )
 }
 

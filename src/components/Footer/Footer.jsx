@@ -45,7 +45,7 @@ const Footer = () => {
 
       <div className="last relative flex flex-col-reverse gap-4 md:flex-row card w-[80%] justify-between items-center h-fit">
         <div className="reserved">
-            <span className=" md:text-sm lg:text-md xl:text-xl text-gray-300 text-[16px] font-semibold">© 2025 Dashify. All rights reserved.</span>
+            <p className=" md:text-sm lg:text-md xl:text-xl text-gray-300 text-[16px] font-semibold">© 2025 Dashify. All rights reserved.</p>
         </div>
         <div className="bottomLinks flex  gap-6 md:text-sm lg:text-md xl:text-xl text-gray-300 text-[16px] font-semibold">
                 <a href="#">Twitter</a>

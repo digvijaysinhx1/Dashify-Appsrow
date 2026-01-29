@@ -14,9 +14,9 @@ const Features = (props) => {
           <div
             className={`up flex flex-col items-center lg:items-start gap-3 `}
           >
-            <span className="text-sm md:text-base font-medium w-fit text-[#5A50D8] bg-[#E2E8FD] rounded-2xl px-4 py-2">
-              {props.span}
-            </span>
+            <p className="text-sm md:text-base font-medium w-fit text-[#5A50D8] bg-[#E2E8FD] rounded-2xl px-4 py-2">
+              {props.p}
+            </p>
 
             <h3
               className="font-medium text-3xl text-center sm:text-4xl md:text-5xl"
