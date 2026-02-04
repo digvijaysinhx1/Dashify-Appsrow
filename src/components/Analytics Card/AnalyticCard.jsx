@@ -1,6 +1,6 @@
 import React from "react";
 import Tags from "./Tags";
-import circles from "../../assets/analytics.png";
+import circles from "../../assets/analytics.webp";
 
 const AnalyticCard = (elem) => {
   return (
