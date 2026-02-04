@@ -22,7 +22,7 @@ const Footer = () => {
             <h3 className="font-semibold text-3xl md:text-5xl text-[#FFFFFF] text-nowrap">Ready to get started?</h3>
             <p className="text-[#FFFFFF] font-normal text-sm md:text-[18px]">Take the first step to growing your business</p>
         </div>
-        <div className="right">
+        <div className="right z-999">
             <GetBtn2/>
         </div>
       </div>
