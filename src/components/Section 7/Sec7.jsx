@@ -10,12 +10,12 @@ const Sec7 = () => {
   return (
     <div className="w-full px-15 flex flex-col mt-15 lg:flex-row lg:justify-between items-center lg:items-baseline gap-10 h-fit mb-10 bg-[#FCFCFC]">
       <div className="texts flex flex-col w-90 gap-3">
-        <h3
+        <h1
           className="text-gray-950 font-medium text-3xl md:text-5xl"
           style={{ fontFamily: "Instrument Sans" }}
         >
           Frequently asked questions
-        </h3>
+        </h1>
         <p className="font-normal text-gray-700 text-[18px]">
           Have questions? We’ve got answers. For everything else email us on{" "}
           <span className="text-[#5A50D8] font-bold underline">

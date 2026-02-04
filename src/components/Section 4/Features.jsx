@@ -18,12 +18,12 @@ const Features = (props) => {
               {props.span}
             </p>
 
-            <h3
+            <h1
               className="font-medium text-3xl text-left sm:text-4xl md:text-5xl"
               style={{ fontFamily: "Instrument Sans" }}
             >
-              {props.h3}
-            </h3>
+              {props.h1}
+            </h1>
           </div>
 
           <p className="w-full md:w-[90%] text-base md:text-lg text-gray-700">

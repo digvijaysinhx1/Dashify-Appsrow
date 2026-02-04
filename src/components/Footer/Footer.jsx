@@ -19,7 +19,7 @@ const Footer = () => {
         />
 
         <div className="left flex flex-col gap-4 items-center md:items-start">
-            <h3 className="font-semibold text-3xl md:text-5xl text-[#FFFFFF] text-nowrap">Ready to get started?</h3>
+            <h1 className="font-semibold text-3xl md:text-5xl text-[#FFFFFF] text-nowrap">Ready to get started?</h1>
             <p className="text-[#FFFFFF] font-normal text-sm md:text-[18px]">Take the first step to growing your business</p>
         </div>
         <div className="right z-999">

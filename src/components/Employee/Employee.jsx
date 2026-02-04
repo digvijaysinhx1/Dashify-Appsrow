@@ -13,7 +13,7 @@ const Employee = () => {
                 <p>Employees</p>
             </div>
             <div className="bottom flex flex-col justify-center items-left gap-2">
-            <h4 className="text-[39px] font-semibold">340</h4>
+            <h1 className="text-[39px] font-semibold">340</h1>
             <div className='flex justify-center items-center gap-2'>
 
                 <p className='flex items-center justify-center gap-1 text-[#02C519] text-xs font-normal'><MoveUpRight className='h-4'/> 07.50%</p>

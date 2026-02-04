@@ -157,9 +157,9 @@ const Sec4 = (elem) => {
         <p className='text-center text-gray-700 font-normal text-lg '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
       </div>
       <div className="features flex flex-col gap-10">
-        <Features flex="lg:flex-row" items="items-left"  span="Easy Admin" h3="Take the pain out of company admin" p="Eliminate the hassle, nobody wants it. Take the pain out of company admin with our all-in-one platform. Simplify projects and focus on what really drives your business forward." code={card1}/>
-        <Features flex="lg:flex-row-reverse" items="items-start" span="Ready for scale" h3="Grow with your Business" p="Now you can grow confidently, nothing holding you back. Our platform grows as you grow. Adapting to your needs. Scale from a pre-seed startup to public company with Dashify." code={card2}/>
-        <Features flex="lg:flex-row" items="items-left" span="Central Platform" h3="Manage your team in one place" p="Centralize your team management. Manage your entire team in one tool. Easy communication, project management, and smooth collaboration with your team." code={card3} />
+        <Features flex="lg:flex-row" items="items-left"  span="Easy Admin" h1="Take the pain out of company admin" p="Eliminate the hassle, nobody wants it. Take the pain out of company admin with our all-in-one platform. Simplify projects and focus on what really drives your business forward." code={card1}/>
+        <Features flex="lg:flex-row-reverse" items="items-start" span="Ready for scale" h1="Grow with your Business" p="Now you can grow confidently, nothing holding you back. Our platform grows as you grow. Adapting to your needs. Scale from a pre-seed startup to public company with Dashify." code={card2}/>
+        <Features flex="lg:flex-row" items="items-left" span="Central Platform" h1="Manage your team in one place" p="Centralize your team management. Manage your entire team in one tool. Easy communication, project management, and smooth collaboration with your team." code={card3} />
       </div>
     </div>
   )

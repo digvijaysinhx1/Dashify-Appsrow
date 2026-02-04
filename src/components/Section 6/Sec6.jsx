@@ -10,12 +10,12 @@ const Sec6 = () => {
   return (
     <div className="Main relative bg-white h-fit flex flex-col items-center pb-15 gap-10">
       <div className="text flex flex-col gap-4 w-95 md:w-140.25 text-center">
-        <h3
+        <h1
           className="font-medium text-3xl md:text-5xl text-gray-950"
           style={{ fontFamily: "Instrument Sans" }}
         >
           Transparent pricing for you and your team
-        </h3>
+        </h1>
         <p className="text-gray-700 font-normal text-base md:text-lg">
           Transparent pricing, with clear, accessible rates. Everyone can focus
           on what matters most — achieving your goals.
@@ -50,7 +50,7 @@ const Sec6 = () => {
           <div className="planInfo w-65.25 h-27.25 gap-3 pb-6 border-b border-[#E2E8FD]">
             <div className="name w-full font-medium text-xl"><p>Basic</p></div>
             <div className="amt flex items-center h-fit w-full gap-2">
-                <h4 className="font-medium text-[39px]">$26</h4>
+                <h1 className="font-medium text-[39px]">$26</h1>
                 <p className="font-normal text-xl">/mo</p>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Sec6 = () => {
           <div className="planInfo w-65.25 h-27.25 gap-3 pb-6 border-b border-[#6E6FE6]">
             <div className="name w-full font-medium text-xl"><p>Pro</p></div>
             <div className="amt flex relative items-center h-fit w-full gap-2">
-                <h4 className="font-medium text-[39px]">$49</h4>
+                <h1 className="font-medium text-[39px]">$49</h1>
                 <p className="font-normal absolute -top-8 right-0 text-xl bg-[#FFFFFF] text-[#5A50D8] px-4 py-2 rounded-xl">Popular</p>
                 <p className="font-normal text-xl">/mo</p>
             </div>
@@ -131,7 +131,7 @@ const Sec6 = () => {
           <div className="planInfo w-65.25 h-27.25 gap-3 pb-6 border-b border-[#E2E8FD]">
             <div className="name w-full font-medium text-xl"><p>Enterprise</p></div>
             <div className="amt flex items-center h-fit w-full gap-2">
-                <h4 className="font-medium text-[39px]">$179</h4>
+                <h1 className="font-medium text-[39px]">$179</h1>
                 <p className="font-normal text-xl">/mo</p>
             </div>
           </div>

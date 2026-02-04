@@ -8,12 +8,12 @@ const Sec3 = (elem) => {
   return (
     <div className="relative bg-[#FAFBFF] w-screen flex flex-col items-center h-[200vh] lg:h-screen">
       <div className="infos absolute flex flex-col items-center md:w-186.5 w-80 justify-center text-center h-fit gap-4 top-20">
-        <h3
+        <h1
           className="lg:text-5xl text-2xl font-medium text-center text-gray-950 "
           style={{ fontFamily: "Instrument Sans" }}
         >
           Dashify is built for you
-        </h3>
+        </h1>
         <p className="text-gray-700 font-normal text-sm md:text-md lg:text-lg">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

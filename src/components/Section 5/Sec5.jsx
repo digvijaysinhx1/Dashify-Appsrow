@@ -4,9 +4,9 @@ import Reviews from "./Reviews";
 const Sec5 = () => {
   return (
     <div className="flex flex-col relative items-center bg-[#FCFCFC] py-20 overflow-hidden">
-      <h3 className="text-3xl md:text-5xl font-medium text-gray-950 mb-12">
+      <h1 className="text-3xl md:text-5xl font-medium text-gray-950 mb-12">
         What our customer say
-      </h3>
+      </h1>
 
       {/* Row 1 — left to right */}
       <div className="marquee-row">
