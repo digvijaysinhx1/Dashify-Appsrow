@@ -4,8 +4,35 @@ import HeroPara from "./HeroPara";
 import GetBtn from "../GetBtn";
 import MultiImages from "./MultiImages";
 import Learn from "../Learn";
+import Lenis from "lenis";
+import { useEffect, useRef } from "react";
 
 const HeroCenter = () => {
+  const lenisRef = useRef(null);
+  const rafRef = useRef(null);
+
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.2,
+      smooth: true,
+      direction: "vertical",
+      gestureOrientation: "vertical",
+    });
+
+    lenisRef.current = lenis;
+
+    function raf(time) {
+      lenis.raf(time);
+      rafRef.current = requestAnimationFrame(raf);
+    }
+    rafRef.current = requestAnimationFrame(raf);
+
+    return () => {
+      cancelAnimationFrame(rafRef.current);
+      lenis.destroy();
+      lenisRef.current = null;
+    };
+  }, []);
   return (
     <div className="main flex flex-col w-87 h-fit mt-20 md:w-142 gap-23 justify-center z-50 items-center">
       <div className="infos flex flex-col justify-center items-center gap-12.5">
