@@ -29,9 +29,9 @@ const Sec7 = () => {
             onClick={() => setOpen1((prev) => !prev)}
             className="heading flex justify-between items-center text-left"
           >
-            <h6 className="font-medium text-gray-950 text-xl md:text-[25px]">
+            <h1 className="font-medium text-gray-950 text-xl md:text-[25px]">
               How does Dashify work?
-            </h6>
+            </h1>
 
             {open1 ? <Minus /> : <Plus />}
           </button>
@@ -52,9 +52,9 @@ const Sec7 = () => {
             onClick={() => setOpen2((prev) => !prev)}
             className="heading flex justify-between items-center text-left"
           >
-            <h6 className="font-medium text-gray-950 text-xl lg:text-[25px]">
+            <h1 className="font-medium text-gray-950 text-xl lg:text-[25px]">
               Is my data secure?
-            </h6>
+            </h1>
 
             {open2 ? <Minus /> : <Plus />}
           </button>
@@ -74,9 +74,9 @@ const Sec7 = () => {
             onClick={() => setOpen3((prev) => !prev)}
             className="heading flex justify-between items-center text-left"
           >
-            <h6 className="font-medium text-gray-950 text-xl md:text-[25px]">
+            <h1  className="font-medium text-gray-950 text-xl md:text-[25px]">
               Does Dashify work well for large teams?
-            </h6>
+            </h1>
 
             {open3 ? <Minus /> : <Plus />}
           </button>
@@ -96,9 +96,9 @@ const Sec7 = () => {
             onClick={() => setOpen4((prev) => !prev)}
             className="heading flex justify-between items-center text-left"
           >
-            <h6 className="font-medium text-gray-950 text-xl md:text-[25px]">
+            <h1 className="font-medium text-gray-950 text-xl md:text-[25px]">
               How do I create a new account?
-            </h6>
+            </h1>
 
             {open4 ? <Minus /> : <Plus />}
           </button>

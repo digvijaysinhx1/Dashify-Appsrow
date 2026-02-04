@@ -96,9 +96,9 @@ const Sec4 = (elem) => {
               </div>
               
         
-              <h6 className="text-sm text-gray-600 gap-1.5 font-medium flex items-center" >
+              <h1 className="text-sm text-gray-600 gap-1.5 font-medium flex items-center" >
                 <span className="text-[39px] text-gray-950 font-semibold">+18%</span> <span>Growth</span>
-              </h6>
+              </h1>
             </div>
             </div>
 
