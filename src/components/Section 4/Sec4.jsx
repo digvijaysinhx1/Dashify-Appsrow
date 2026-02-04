@@ -1,6 +1,6 @@
 import React from 'react'
 import Features from './Features'
-import circles from "../../assets/analytics.png";
+import circles from "../../assets/analytics.webp";
 import Tags from '../Analytics Card/Tags';
 import Users from '../../assets/users.png'
 import Graph from "../../assets/Graph.png"
