@@ -29,8 +29,8 @@ const Header = () => {
         <button
           onClick={() => setOpen(!open)}
           className=" lg:hidden"
-          aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
-  aria-expanded={isOpen}
+          aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+  aria-expanded={open}
   aria-controls="mobile-menu"
         >
           {open ? <X className="text-[#4F4F4F]" name="Menu" /> : <Menu name="Menu" className="text-[#4F4F4F]" />}
